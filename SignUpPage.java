@@ -45,10 +45,10 @@ public class SignUpPage extends Frame implements ActionListener {
     	add(textField3);
     	add(l4);
     	add(textField4);
-    	textField1.setText("First Name");
-	textField2.setText("Last Name");
-	textField3.setText("Email");
-	textField4.setText("Password");
+    	textField1.setText(" ");
+	textField2.setText(" ");
+	textField3.setText(" ");
+	textField4.setText(" ");
         add(button);
 		
 		
