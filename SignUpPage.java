@@ -37,7 +37,6 @@ public class SignUpPage extends Frame implements ActionListener {
 	    
      	
        //adding the components in the frame
-	add(button);
 	add(l1);
 	add(textField1);
     	add(l2);
@@ -50,7 +49,7 @@ public class SignUpPage extends Frame implements ActionListener {
 	textField2.setText("Last Name");
 	textField3.setText("Email");
 	textField4.setText("Password");
-    
+        add(button);
 		
 		
 	button.addActionListener(this);
